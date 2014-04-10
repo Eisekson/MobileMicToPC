@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <script src="http://code.jquery.com/jquery-1.9.0.js"></script>
+
+</head>
+<body style="padding: 0px; margin:0px;">
+<textarea name="text" id="texts" cols="30" rows="10"></textarea>
+<br/>
+<input type="button" value='Submit' id="submit"/>
+</body>
+<script>
+    window.onload = function () {
+        document.getElementById('submit').onclick = function () {
+            var t = document.getElementById('texts');
+            $.ajax({
+                type: 'post',
+                url: '/submitData',
+                data: {
+                    data: t.value
+                },
+                dataType: 'jsonp',
+                cache: false,
+                timeout: 5000,
+                success: function (data) {
+                    t.value = '';
+                    alert(data);
+                },
+                error: function (data) {
+                    console.log(data);
+                }
+            });
+
+
+        };
+    }
+</script>
+</html>
