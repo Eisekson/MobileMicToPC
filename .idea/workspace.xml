@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8c843d0-ba4a-407d-ab8e-eaf7df7e337d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.ejs" afterPath="$PROJECT_DIR$/views/index.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MobileMicToPC.iws" />
@@ -26,19 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="28" selection-start="2717" selection-end="2717" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="2055">
+            <state line="13" column="41" selection-start="290" selection-end="290" vertical-scroll-proportion="0.2863436" vertical-offset="0" max-vertical-offset="2055">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.ejs" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.ejs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="867" selection-end="867" vertical-scroll-proportion="0.6347032" vertical-offset="3" max-vertical-offset="660">
+            <state line="28" column="0" selection-start="867" selection-end="867" vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="660">
               <folding />
             </state>
           </provider>
@@ -76,8 +76,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/routes/index.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/views/index.ejs" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -243,7 +243,11 @@
       <created>1398158287956</created>
       <updated>1398158287956</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Finish App&#10;">
+      <created>1398158879899</created>
+      <updated>1398158879899</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -284,7 +288,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Finish App" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish App" />
+    <MESSAGE value="Finish App&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish App&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -346,16 +351,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="28" selection-start="2717" selection-end="2717" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="2055">
+        <state line="28" column="0" selection-start="867" selection-end="867" vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="660">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="867" selection-end="867" vertical-scroll-proportion="0.6347032" vertical-offset="3" max-vertical-offset="660">
+        <state line="13" column="41" selection-start="290" selection-end="290" vertical-scroll-proportion="0.2863436" vertical-offset="0" max-vertical-offset="2055">
           <folding />
         </state>
       </provider>
