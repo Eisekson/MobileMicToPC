@@ -98,7 +98,7 @@ net.createServer({ allowHalfOpen: true
 function submitData(data, res) {
     if (clients.length > 0) {
         socket = clients[0];
-        socket.end(data);
+        socket.end(data,'utf8');
 
         res.jsonp('success');
         console.log('submitData');
